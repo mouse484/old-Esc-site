@@ -10,19 +10,22 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-
     <nav class="light-blue lighten-1" role="navigation">
         <div class="nav-wrapper container">
-            <img class="brand-logo circle materialboxed" id="logo-container" href="#" width="60" alt="[Esc]" src="https://cdn.discordapp.com/attachments/512148957296853004/514721456328802304/Esc.png">
+            <a id="logo-container" href="#" class="brand-logo"><img class="circle materialboxed" width="60" alt="[Esc]"
+                    src="https://cdn.discordapp.com/attachments/512148957296853004/514721456328802304/Esc.png"> </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">servers</a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Navbar Link</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">servers</a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -132,7 +135,18 @@
     </footer>
 
     <!--script-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--サイドバーの奴-->
+    <script>
+        (function ($) {
+            $(function () {
+
+                $('.sidenav').sidenav();
+
+            }); // end of document ready
+        })(jQuery); // end of jQuery name space
+    </script>
 </body>
 
 </html>
