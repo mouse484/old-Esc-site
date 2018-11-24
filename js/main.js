@@ -3,6 +3,3 @@ $(function () {
     $("#header").load("../parts/header.html");
 });
 
-$(document).ready(function () {
-    $('.sidenav').sidenav();
-});
