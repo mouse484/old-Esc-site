@@ -1,4 +1,5 @@
 $(function () {
-    //読み込み系
-    $("#header").load("/Esc-site/parts/header.html");
+    /*読み込み*/
+    //ヘッダー
+    $("#header").load("Esc-site/parts/header.html");
 });
