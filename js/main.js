@@ -11,6 +11,9 @@ $(function () {
     $(".join").on("click", function () {
         $("#main").load("contents/join.html")
     });
+    $(".servers").on("click", function () {
+        $("#main").load("contents/servers.html")
+    });
 });
 
 
