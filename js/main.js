@@ -1,4 +1,4 @@
-$(window).on("load", function () {
+$(window).on("load", () => {
     $("#header").load("parts/header.html");
     $("#main").load("page/home/index.html#main")
     $("#footer").load("parts/footer.html");
