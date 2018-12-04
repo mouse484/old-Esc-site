@@ -1,4 +1,4 @@
 $(window).on("load", function () {
-    $("#header").load("parts/header.html");
-    $("#footer").load("parts/footer.html");
+    $("#header").load("/Esc-site/parts/header.html");
+    $("#footer").load("/Esc-site/parts/footer.html");
 });
